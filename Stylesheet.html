@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>
+			Stylesheet
+		</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div>
+			<header>
+				<div class="wrapper">
+					<div class="logo">
+						<a href="#bottom">Group-2</a>
+					</div>
+					<nav>
+						<a href="index.html">Home</a> 
+						<a href="forms.html">Form-Design</a>
+						<a href="Stylesheet.html">StyleSheet</a> 
+						<a href="frames.html">Frame</a> 
+					</nav>
+				</div>
+			</header>
+		</div>
+		<div class="outer3">
+			<div class="inner">
+				<h1><center><u>HTML-Stylesheet</u></center></h1>
+				<br><br><br>
+				<p>Cascading Style Sheets (CSS) describe how documents are presented on screens, in print, or perhaps how they are pronounced. 
+				Using CSS, you can specify a number of style properties for a given HTML element.
+				Each property has a name and a value, separated by a colon (:). Each property declaration is separated by a semi-colon (;).
+				 <br><br>
+				There are three ways of inserting a style sheet:<br><br>
+				<ul type="square">
+					<li> Inline CSS: — Using the <b>style</b> attribute in the HTML start tag. </li>
+					<li> Internal CSS: — Using the <b>style</b> element in the head section of a document. </li>
+					<li> External CSS: — Using the <b>link</b> element, pointing to an external CSS file.</li>
+				</ul>
+
+
+				</p><br><br>
+				<h2><u>Inline CSS</u></h2><br>
+				<p> Inline styles are used to apply the unique style rules to an element by putting the CSS rules directly into the start tag. <br> <br>It can be attached to an element using the style attribute.
+				The style attribute includes a series of CSS property and value pairs. Each "property: value" pair is separated by a semicolon (;), just as you would write into an embedded or external style sheets. But it needs to be all in one line i.e. no line break after the semicolon, as shown here: </p>
+				<br><br><br>
+				<div class="preview-box">
+					<b>For Example:</b><br><br>
+					<br><code>&lth1 style="color:red; font-size:30px;">This is a heading &lt/h1&gt;</code><br>
+					<br><code>&ltp style="color:green; font-size:22px;">This is a paragraph.&lt/p&gt;</code><br>
+					<br>
+					<p><b> OUTPUT </b></p>					
+					<h1 style="color:red; font-size:30px;">This is a heading </h1>
+					<p style="color:green; font-size:22px;">This is a paragraph.</p>
+				</div>
+				<br><br>
+
+
+				<h2><u>Internal CSS</u> </h2><br><br>
+				<p> The internal or Embedded style sheet  is used to add a unique style for a single document. <br>These kind of style sheets only affect the document they are embedded in.
+				It is defined in <u><b>head</b></u> section of the HTML page inside the <u><b>style</b></u> tag.</p>
+				<br><br>
+				<div class="preview-box">
+					<b>For Example:</b><br><br>
+					<br><code>&lthtml&gt;</code><br>
+					<br><code>&lthead&gt;</code><br>
+    					<br><code>&lttitle>My HTML Document&lt/title&gt;</code><br>
+    					<br><code>&ltstyle&gt;</code><br>
+       						 body { background-color: YellowGreen; }
+        					p { color: #fff; }
+    					<br><code>&lt/style&gt;</code><br>
+					<br><code>&lt/head&gt;</code><br>
+					<br><code>&ltbody&gt;</code><br>
+    						<br><code>&lth1>This is a heading&lt/h1&gt;</code><br>
+    						<br><code>&ltp>This is a paragraph of text.&lt/p&gt;</code><br>
+					<br><code>&lt/body&gt;</code><br>
+					<br><code>&lt/html&gt;</code><br>
+					
+				</div>
+				<br>
+				<br>
+
+				<h2><u>External CSS </u></h2><br>
+				<p> The external style sheet is generally used when you want to make changes on multiple pages. 
+					It is ideal for this condition because it facilitates you to change the look of the entire web site by changing just one file.
+				 It uses the <u><b>link</b></u> tag on every pages and the <u><b>link</b></u> tag should be put inside the head section. </p>
+				<br>
+				<br>
+				<div class="preview-box">
+					For Example: 
+					<h4> Type the following CSS code inside this file and save it as <b>"style.css"</b>. </h4>
+					<code>body {
+    					<br>background: lightyellow;
+    					<br>font: 18px Arial, sans-serif; <br>
+						}
+					<br>h1 {
+   					 color: orange;
+					} </code><br><br>	
+
+					<h4> Now link the external css file <b>"style.css"</b> to your main html file</h4>
+					<br><code>&lthtml&gt;</code><br>
+					<br><code>&lthead&gt;</code><br>
+    					<br><code>&lttitle>My HTML Document&lt/title&gt;</code><br>
+    					<br><code>&ltlink rel="stylesheet" href="css/style.css"&gt;</code><br>
+					<br><code>&lt/head&gt;</code><br>
+					<br><code>&ltbody&gt;</code><br>
+    						<br><code>&lth1>This is a heading&lt/h1&gt;</code><br>
+    						<br><code>&ltp>This is a paragraph of text.&lt/p&gt;</code><br>
+					<br><code>&lt/body&gt;</code><br>
+					<br><code>&lt/html&gt;</code><br><br> </div>	
+</body>
+</html>
