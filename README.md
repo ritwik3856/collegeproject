@@ -4,8 +4,9 @@ Click Here to view the Website https://ritwik3856.github.io/
 College Web Technology Project of Group-2
 
 Submitted by
-Ritwik Rudra (2005257) 
-Anchit Kumar Sharma (2005215)
-Anupam Anand (2005218)
-Ananya Verma (2005214)    
-Aiyesha Rukhsar (20051919)
+
+1. Ritwik Rudra (2005257) 
+2. Anchit Kumar Sharma (2005215)
+3. Anupam Anand (2005218)
+4. Ananya Verma (2005214)    
+5. Aiyesha Rukhsar (20051919)
