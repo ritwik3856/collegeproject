@@ -1,4 +1,5 @@
 # WT_Project_Group_2
+Click Here to view the Website https://ritwik3856.github.io/
 College Web Technology Project of Group-2
 
 Submitted by
